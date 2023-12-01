@@ -157,6 +157,66 @@ footer p {
 
 /* media queries go below */
 
+@media (max-width: 810px) {
+
+    html {
+        line-height: 140%;
+    }
+
+    nav a {
+        padding: 30px;
+        letter-spacing: 2px;
+        font-size: .8rem;
+    }
+
+    nav ul {
+        padding-left: 5px;
+    }
+
+    main {
+        width: 85%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        text-shadow: none;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    img {
+        float: none;
+        max-width: 60%;
+        margin-left: 20%;
+    }
+
+    .rate {
+        font-size: 1rem;
+    }
+
+    .details,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        width: 90%;
+        float: none;
+    }
+    
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: left;
+        width: 33%;
+    }
+
+    footer {
+        font-size: .7rem;
+    }
+}
+
 @media (max-width: 360px) {
 
     html {
@@ -226,66 +286,6 @@ footer p {
         font-size: .7rem;
         margin: 40px auto;
         border: 6px dotted #c98226;
-    }
-
-    footer {
-        font-size: .7rem;
-    }
-}
-
-@media (max-width: 810px) {
-
-    html {
-        line-height: 140%;
-    }
-
-    nav a {
-        padding: 30px;
-        letter-spacing: 2px;
-        font-size: .8rem;
-    }
-
-    nav ul {
-        padding-left: 5px;
-    }
-
-    main {
-        width: 85%;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-        text-shadow: none;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    img {
-        float: none;
-        max-width: 60%;
-        margin-left: 20%;
-    }
-
-    .rate {
-        font-size: 1rem;
-    }
-
-    .details,
-    .ingredients,
-    .instructions,
-    .nutrition {
-        width: 90%;
-        float: none;
-    }
-    
-    .col1,
-    .col2,
-    .col3 {
-        display: block;
-        float: left;
-        width: 33%;
     }
 
     footer {
