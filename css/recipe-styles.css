@@ -154,3 +154,142 @@ footer p {
     float: left;
     width: 33%;
 }
+
+/* media queries go below */
+
+@media (max-width: 360px) {
+
+    html {
+        line-height: 135%;
+    }
+
+    nav a {
+        padding: 1px;
+        letter-spacing: normal;
+        font-size: .8rem;
+    }
+
+    nav ul {
+        padding-left: 5px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-shadow: none;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        float: none;
+        max-width: 60%;
+        margin-left: 20%;
+    }
+
+    .rate {
+        font-size: 1rem;
+    }
+
+    .details,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        width: 90%;
+        float: none;
+    }
+    
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: none;
+        width: 90%;
+    }
+
+    blockquote {
+        clear: both;
+        width: 200px;
+        height: 180px;
+        padding: 20px 16px 0 26px;
+        border-radius: 50%;
+        background-color: #f3b96c;
+        /* outline: dotted 6px #c98226;
+        outline-offset: 10px; */
+        /* the above outline would not make a circle, only square, used border property instead */
+        font-family: 'Abril Fatface', serif;
+        font-size: .7rem;
+        margin: 40px auto;
+        border: 6px dotted #c98226;
+    }
+
+    footer {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 810px) {
+
+    html {
+        line-height: 140%;
+    }
+
+    nav a {
+        padding: 30px;
+        letter-spacing: 2px;
+        font-size: .8rem;
+    }
+
+    nav ul {
+        padding-left: 5px;
+    }
+
+    main {
+        width: 85%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        text-shadow: none;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    img {
+        float: none;
+        max-width: 60%;
+        margin-left: 20%;
+    }
+
+    .rate {
+        font-size: 1rem;
+    }
+
+    .details,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        width: 90%;
+        float: none;
+    }
+    
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: left;
+        width: 33%;
+    }
+
+    footer {
+        font-size: .7rem;
+    }
+
+}
